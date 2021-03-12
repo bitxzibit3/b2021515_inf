@@ -28,7 +28,7 @@ void print_complex (complex a)
     else if (a.imagine == -1)
         printf ("%f - i\t", a.real);
     else if (a.imagine == 1)
-        printf ("%f + i\t", a.real)
+        printf ("%f + i\t", a.real);
     else if (a.imagine < 0)
         printf ("%f - %fi\t", a.real, (-1) *a.imagine);
 }
